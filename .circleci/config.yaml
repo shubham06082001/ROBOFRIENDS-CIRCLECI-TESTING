@@ -24,9 +24,9 @@ jobs:
             - run: npm install
       - run: npm run test
       - run: echo "Second hello"
-  workflows:
-    version: 2.1
-    bobby_sally:
-      jobs:
-        - bobby
-        - sally
+workflows:
+  version: 2.1
+  bobby_sally:
+    jobs:
+      - bobby
+      - sally
